@@ -20,7 +20,7 @@ app.get('/', function(req, res) {
     res.send(calendarData[req.query.date]);
 });
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 80;
 app.listen(port, function(){
     console.log( 'Express started on http://localhost:' + port + '; 按Ctrl-C退出。' );
 });
