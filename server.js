@@ -2,8 +2,6 @@
 var express = require('express');
 var app = express();
 
-var request = require('request');
-
 var calendarData = {
         '2017-11-15': {
             "chineseDate": '九月廿七',
@@ -22,7 +20,7 @@ app.get('/', function(req, res) {
     res.send(calendarData[req.query.date]);
 });
 
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 8080;
 app.listen(port, function(){
     console.log( 'Express started on http://localhost:' + port + '; 按Ctrl-C退出。' );
 });
