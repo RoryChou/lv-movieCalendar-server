@@ -17,7 +17,8 @@ var calendarData = {
 
 
 app.get('/', function(req, res) {
-    res.send(calendarData[req.query.date]);
+    //res.send(calendarData[req.query.date]);
+    res.send('success!');
 });
 
 var port = process.env.PORT || 80;
