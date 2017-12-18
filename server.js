@@ -3,6 +3,16 @@ var express = require('express');
 var app = express();
 
 var calendarData = {
+    '2017-12-18': {
+        "chineseDate": '东月初一',
+        "title": '导演 斯蒂芬·斯皮尔伯格',
+        "time": '（1946.12.18 - ）',
+        "comment": '骗子的生活是孤独的，因为你不可能对其他人说真心话。',
+        "from": '',
+        "movie": '猫鼠游戏',
+        "average": '8.7',
+        "stars": 4.5
+    },
     '2017-12-19': {
         "chineseDate": '东月初二',
         "title": '“雨人”原型 金·皮克逝世',
