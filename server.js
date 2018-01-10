@@ -22,7 +22,7 @@ var calendarData = {
         "movie": '香奈儿',
         "average": '8.0',
         "stars": 4
-    }
+    },
 }
 
 
